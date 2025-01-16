@@ -82,7 +82,7 @@ type queueStateSnapshot struct {
 	MemoryUsage int64 `json:"memory_usage_bytes"`
 	// Total number of tasks in the queue.
 	Size int `json:"size"`
-	// Totoal number of groups in the queue.
+	// Total number of groups in the queue.
 	Groups int `json:"groups"`
 	// Latency of the queue in milliseconds.
 	LatencyMillisec int64 `json:"latency_msec"`
